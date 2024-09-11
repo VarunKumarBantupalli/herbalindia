@@ -1,4 +1,4 @@
-import peppermint1 from '../../assets/images/peppermint1.jpg';
+import peppermint1 from '../../assets/images/peppermint1.jpeg';
 import peppermint2 from '../../assets/images/peppermint2.jpg';
 import ginger1 from '../../assets/images/ginger1.jpg';
 import ginger2 from '../../assets/images/ginger2.jpg';
