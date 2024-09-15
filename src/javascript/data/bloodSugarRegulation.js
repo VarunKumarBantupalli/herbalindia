@@ -1,19 +1,19 @@
-import cinnamon1 from '../../assets/images/cinnamon1.jpg';
-import cinnamon2 from '../../assets/images/cinnamon2.jpg';
-import fenugreek1 from '../../assets/images/fenugreek1.jpg';
-import fenugreek2 from '../../assets/images/fenugreek2.jpg';
-import bitterMelon1 from '../../assets/images/bitterMelon1.jpg';
-import bitterMelon2 from '../../assets/images/bitterMelon2.jpg';
-import turmeric1 from '../../assets/images/turmeric1.jpg';
-import turmeric2 from '../../assets/images/turmeric2.jpg';
-import aloeVera1 from '../../assets/images/aloeVera1.jpg';
-import aloeVera2 from '../../assets/images/aloeVera2.jpg';
-import amla1 from '../../assets/images/amla1.jpg';
-import amla2 from '../../assets/images/amla2.jpg';
-import gymnema1 from '../../assets/images/gymnema1.jpg';
-import gymnema2 from '../../assets/images/gymnema2.jpg';
-import jambul1 from '../../assets/images/jambul1.jpg';
-import jambul2 from '../../assets/images/jambul2.jpg';
+import cinnamon1 from '../../assets/images/cinnamon1.jpeg';
+import cinnamon2 from '../../assets/images/cinnamon2.jpeg';
+import fenugreek1 from '../../assets/images/fenugreek1.jpeg';
+import fenugreek2 from '../../assets/images/fenugreek2.jpeg';
+import bitterMelon1 from '../../assets/images/bitterMelon1.jpeg';
+import bitterMelon2 from '../../assets/images/bitterMelon2.jpeg';
+import turmeric1 from '../../assets/images/turmeric1.jpeg';
+import turmeric2 from '../../assets/images/turmeric2.jpeg';
+import aloeVera1 from '../../assets/images/aloeVera1.jpeg';
+import aloeVera2 from '../../assets/images/aloeVera2.jpeg';
+import amla1 from '../../assets/images/amla1.jpeg';
+import amla2 from '../../assets/images/amla2.jpeg';
+import gymnema1 from '../../assets/images/gymnema1.jpeg';
+import gymnema2 from '../../assets/images/gymnema2.jpeg';
+import jambul1 from '../../assets/images/jambul1.jpeg';
+import jambul2 from '../../assets/images/jambul2.jpeg';
 
 export const BloodSugarRegulation = [
   {
