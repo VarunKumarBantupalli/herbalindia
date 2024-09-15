@@ -1,4 +1,4 @@
-import ashwagandha1 from '../../assets/images/ashwagandha1.jpg';
+import ashwagandha1 from '../../assets/images/ashwagandha1.jpeg';
 import ashwagandha2 from '../../assets/images/ashwagandha2.jpg';
 import tulsi1 from '../../assets/images/tulsi1.jpg';
 import tulsi2 from '../../assets/images/tulsi2.jpg';
