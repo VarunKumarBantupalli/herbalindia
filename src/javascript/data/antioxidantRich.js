@@ -1,19 +1,19 @@
-import pomegranate1 from '../../assets/images/pomegranate1.jpg';
-import pomegranate2 from '../../assets/images/pomegranate2.jpg';
-import blueberries1 from '../../assets/images/blueberries1.jpg';
-import blueberries2 from '../../assets/images/blueberries2.jpg';
-import gojiBerries1 from '../../assets/images/gojiBerries1.jpg';
-import gojiBerries2 from '../../assets/images/gojiBerries2.jpg';
-import greenTea1 from '../../assets/images/greenTea1.jpg';
-import greenTea2 from '../../assets/images/greenTea2.jpg';
-import acaiBerry1 from '../../assets/images/acaiBerry1.jpg';
-import acaiBerry2 from '../../assets/images/acaiBerry2.jpg';
-import chiaSeeds1 from '../../assets/images/chiaSeeds1.jpg';
-import chiaSeeds2 from '../../assets/images/chiaSeeds2.jpg';
-import darkChocolate1 from '../../assets/images/darkChocolate1.jpg';
-import darkChocolate2 from '../../assets/images/darkChocolate2.jpg';
-import redWine1 from '../../assets/images/redWine1.jpg';
-import redWine2 from '../../assets/images/redWine2.jpg';
+import pomegranate1 from '../../assets/images/pomegranate1.jpeg';
+import pomegranate2 from '../../assets/images/pomegranate2.jpeg';
+import blueberries1 from '../../assets/images/blueberries1.jpeg';
+import blueberries2 from '../../assets/images/blueberries2.jpeg';
+import gojiBerries1 from '../../assets/images/gojiBerries1.jpeg';
+import gojiBerries2 from '../../assets/images/gojiBerries2.jpeg';
+import greenTea1 from '../../assets/images/greenTea1.jpeg';
+import greenTea2 from '../../assets/images/greenTea2.jpeg';
+import acaiBerry1 from '../../assets/images/acaiBerry1.jpeg';
+import acaiBerry2 from '../../assets/images/acaiBerry2.jpeg';
+import chiaSeeds1 from '../../assets/images/chiaSeeds1.jpeg';
+import chiaSeeds2 from '../../assets/images/chiaSeeds2.jpeg';
+import darkChocolate1 from '../../assets/images/darkChocolate1.jpeg';
+import darkChocolate2 from '../../assets/images/darkChocolate2.jpeg';
+import redWine1 from '../../assets/images/redWine1.jpeg';
+import redWine2 from '../../assets/images/redWine2.jpeg';
 
 export const AntioxidantRich = [
   {
