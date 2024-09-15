@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { plants } from '../javascript/data/plants';
+import { DigestiveHealth } from '../javascript/data/DigestiveHealth';
 
 const PlantDetails = () => {
   const { name } = useParams(); // Get the plant name from the URL
@@ -9,7 +9,7 @@ const PlantDetails = () => {
 
   useEffect(() => {
     // Find the plant by name
-    const foundPlant = plants.find(p => p.name.toLowerCase() === name.toLowerCase());
+    const foundPlant = DigestiveHealth.find(p => p.name.toLowerCase() === name.toLowerCase());
     if (foundPlant) {
       setPlant(foundPlant);
     } else {
@@ -26,8 +26,9 @@ const PlantDetails = () => {
       <div className="flex flex-col lg:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
         {/* Image and Media Section */}
         <div className="lg:w-1/2 bg-gray-100 p-6">
+          {/* Display the first image */}
           <img
-            src={plant.image}
+            src={plant.images[0]}
             alt={plant.name}
             className="w-full h-64 object-cover rounded-lg mb-4"
           />
@@ -45,6 +46,7 @@ const PlantDetails = () => {
               3D Model
             </button>
           </div>
+          {/* Video or 3D model display logic */}
           {showVideo ? (
             plant.video ? (
               <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
@@ -86,19 +88,11 @@ const PlantDetails = () => {
         <div className="lg:w-1/2 p-6">
           <h1 className="text-3xl font-bold mb-4">{plant.name}</h1>
           <p className="text-lg font-semibold text-gray-700 mb-2">Botanical Name: {plant.botanicalName}</p>
-          <p className="text-gray-600 mb-4">{plant.description}</p>
-          <h2 className="text-xl font-semibold mb-2">Uses:</h2>
-          <ul className="list-disc list-inside mb-4">
-            {plant.uses.map((use, index) => (
-              <li key={index} className="text-gray-600 mb-2">{use}</li>
-            ))}
-          </ul>
+          <p className="text-gray-600 mb-4">{plant.uses}</p>
+          <h2 className="text-xl font-semibold mb-2">How to Use:</h2>
+          <p className="text-gray-600 mb-4">{plant.howToUse}</p>
           <h2 className="text-xl font-semibold mb-2">Precautions:</h2>
-          <ul className="list-disc list-inside">
-            {plant.precautions.map((precaution, index) => (
-              <li key={index} className="text-gray-600 mb-2">{precaution}</li>
-            ))}
-          </ul>
+          <p className="text-gray-600">{plant.precautions}</p>
         </div>
       </div>
 
