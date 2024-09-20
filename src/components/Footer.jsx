@@ -4,12 +4,12 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-900 text-white py-12 mt-auto">
+    <footer className="bg-gradient-to-r from-green-start via-green-mid to-green-end text-white py-12 mt-auto">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:justify-between mb-12">
           {/* Logo and Description */}
           <div className="text-center md:text-left mb-8 md:mb-0">
-            <h1 className="text-2xl font-bold mb-2">Herbal India</h1>
+            <h1 className="text-3xl font-bold mb-2 text-light-green">Herbal India</h1>
             <p className="text-gray-300">
               Discover the power of nature with our collection of herbal plants. Learn about their benefits, uses, and how they can enhance your well-being.
             </p>
@@ -18,33 +18,33 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="flex flex-col md:flex-row md:space-x-8 mb-8 md:mb-0">
             <div className="mb-6 md:mb-0">
-              <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
+              <h2 className="text-xl font-semibold mb-4 text-light-green">Quick Links</h2>
               <ul className="space-y-2">
                 <li>
-                  <Link to="/" className="text-gray-300 hover:text-white transition duration-300">Home</Link>
+                  <Link to="/" className="text-gray-300 hover:text-light-green transition duration-300">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about" className="text-gray-300 hover:text-white transition duration-300">About Us</Link>
+                  <Link to="/about" className="text-gray-300 hover:text-light-green transition duration-300">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="text-gray-300 hover:text-white transition duration-300">Contact</Link>
+                  <Link to="/contact" className="text-gray-300 hover:text-light-green transition duration-300">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/privacy" className="text-gray-300 hover:text-white transition duration-300">Privacy Policy</Link>
+                  <Link to="/privacy" className="text-gray-300 hover:text-light-green transition duration-300">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
 
             {/* Contact Information */}
             <div className="mb-6 md:mb-0">
-              <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
+              <h2 className="text-xl font-semibold mb-4 text-light-green">Contact Us</h2>
               <p className="text-gray-300 mb-2">Email: contact@herbalindia.com</p>
               <p className="text-gray-300">Phone: +1 (123) 456-7890</p>
             </div>
 
             {/* Newsletter Signup */}
             <div>
-              <h2 className="text-xl font-semibold mb-4">Newsletter Signup</h2>
+              <h2 className="text-xl font-semibold mb-4 text-light-green">Newsletter Signup</h2>
               <form>
                 <input
                   type="email"
@@ -53,7 +53,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-r-full"
+                  className="w-full bg-olive-green hover:bg-forest-green text-white py-2 px-4 rounded-r-full"
                 >
                   Subscribe
                 </button>
